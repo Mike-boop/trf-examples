@@ -6,6 +6,16 @@ Examples for using the publicly-available datasets:
 
 Feel free to raise issues if you have questions about the datasets. Pull requests and improvements also welcome!
 
+The following software were used to run this code:
+
+- python==3.9.9
+- h5py==3.6.0
+- numpy==1.22.0
+- pandas==1.3.5
+- scipy==1.7.3
+- mne==0.24.1
+- matplotlib==3.5.1
+
 If you use these datasets, please cite the dataset repositories above, as well as the relevant papers:
 
 [1] Weissbart H, Kandylaki KD, Reichenbach T. “Cortical Tracking of Surprisal during Continuous Speech Comprehension”. J Cogn Neurosci. 2020 Jan;32(1):155-166. doi: 10.1162/jocn_a_01467.
