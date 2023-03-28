@@ -68,7 +68,7 @@ for condition in ['cleanDutch', 'lbDutch', 'mbDutch', 'hbDutch']:
         # now pre-process the eeg
         for participant in session_info['dutch_session_participants']:
 
-            with h5py.File(os.path.join(data_download_dir, f'{participant}.h5'), 'r') as f:
+            with h5py.File(os.path.join(data_download_dir, 'eeg', f'{participant}.h5'), 'r') as f:
                 eeg = f[f'{condition}/part_{part}'][:]
 
             eeg = resample(eeg, 1, 8) # resample 1kHz to 125Hz.
