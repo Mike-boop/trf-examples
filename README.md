@@ -2,7 +2,7 @@
 Examples for using the publicly-available datasets:
 
 - The dataset for [1]: https://doi.org/10.5281/zenodo.7775260
-- The dataset for [2,3]: <in prep>
+- The dataset for [2,3]: https://doi.org/10.5281/zenodo.7778289
 
 Feel free to raise issues if you have questions about the datasets. Pull requests and improvements also welcome!
 
